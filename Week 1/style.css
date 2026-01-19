@@ -1,0 +1,18 @@
+#FirstDiv {
+    display:flex;
+    justify-content: center;
+    
+}
+
+#FirstHeader {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    height: 100px;
+    width: 500px;
+    background-color: lightblue;
+    font-family: sans-serif;
+}
