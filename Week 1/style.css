@@ -16,3 +16,8 @@
     background-color: lightblue;
     font-family: sans-serif;
 }
+
+#HighersMargain {
+    display: flex;
+    padding-left: 0px;
+}
