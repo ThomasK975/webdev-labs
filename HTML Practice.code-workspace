@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../HTML Practice"
+		},
+		{
+			"name": "webdev-labs",
+			"path": "../../Front End Web Dev/webdev-labs"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "webdev-labs"
+	}
+}
