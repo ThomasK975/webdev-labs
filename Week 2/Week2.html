@@ -1,22 +1,67 @@
 <!DOCTYPE html>
 <head>
-    <link rel="stylesheet" href="master.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="simple-grid.css">
+    <link rel="stylesheet" href="master.css">
 
 </head>
 
 <body>
-    <h1 id="MainMenu">The Menu</h1>
+    <header class="header">
+        <p>Home</p>
+        <p>About Us</p>
+        <p>Products</p>
+        <p>Contact us</p>
+    
+    </header>
 
-    <br>
-    <h3 class="subtitles">Snacks</h3>
+    <main>
+        <h1 id="MainMenu">The Menu</h1>
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-6">
+                    <h3 class="subtitles">Snacks</h3>
 
-    <div class="items">
-        <p>Small Salad</p>
-        <p>Mac and Cheese</p>
-        <p>Chicken Nuggets</p>
-        <p>Chicken Wings</p>
-    </div>
+                    <ul class ="items">
+                        <li>Small Salad</li>
+                        <li>Mac and Cheese</li>
+                        <li>Chicken Nuggets</li>
+                        <li>Chicken Wings</li>
+                    </ul>
+                </div>
+
+                <div col="col-3">
+                    <img src="nuggets.jpg">
+                </div>
+            </div>
+            
+            <div class="row"> 
+                <div class="col-3"> 
+                    <h3 class="subtitles">Burgers</h3>
+                        <ul class="items">
+                            <li>The Original</li>
+                            <li>The Computer Scientist</li>
+                            <li>The Digital Media</li>
+                            <li>The Hacker Special</li>
+                        </ul>
+                </div> 
+            </div>
+
+            <div class="row">
+                <div class="col-6">
+                <h3 class="subtitles">Dishes</h3>
+                <ul class="items">
+                        <li>Mushroom Chicken Pasta</li>
+                        <li>Chicken Green Curry</li>
+                        <li>Roasted Vegetables and Pesto Pasta</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    
 </body>

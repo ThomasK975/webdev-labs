@@ -10,11 +10,27 @@
     color: #773344;
     font-weight: bold;
     text-decoration: underline;
-    font-size: 40px;
+    font-size: 30px;
     font-family: "Bungee", sans-serif;
 }
 
 .items {
-    margin-left: 40px;
     font-family: "Bungee", sans-serif;
+    color: #E3B5A4;
+}
+
+
+
+.header > p {
+    display: inline;
+    margin-right: 10px;
+    color: #773344;
+    text-decoration: underline;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
